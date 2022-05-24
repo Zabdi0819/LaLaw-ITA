@@ -102,12 +102,12 @@ public class ResgisterActivity extends AppCompatActivity {
                         DocumentReference documentReference = db.collection("users").document(userId);
 
                         Map<String, Object> user=new HashMap<>();
-                        user.put("Name", name);
-                        user.put("Lastname", lastname);
-                        user.put("Email", email);
-                        user.put("Phone", phone);
-                        user.put("Password", password);
-                        user.put("confPassword", confPassword);
+                        user.put("Name", nameTxt);
+                        user.put("Lastname", lastnameTxt);
+                        user.put("Email", emailTxt);
+                        user.put("Phone", phoneTxt);
+                        user.put("Password", passwordTxt);
+                        user.put("confPassword", confPasswordTxt);
 
                         documentReference.set(user).addOnSuccessListener(new OnSuccessListener<Void>() {
                             @Override
