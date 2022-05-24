@@ -1,0 +1,45 @@
+<resources>
+    <string name="app_name">Law-ITA</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Configuración</string>
+    <string name="action_help">Ayuda</string>
+
+    <string name="menu_home">Inicio</string>
+    <string name="menu_exp">Expediente</string>
+    <string name="menu_materias">Materias</string>
+    <string name="menu_abogados">Abogados</string>
+    <string name="menu_conocenos">Conócenos</string>
+    <string name="menu_contacto">Contacto</string>
+    <string name="menu_calif">Califícanos</string>
+    <string name="menu_pdp">Políticas de privacidad</string>
+    <string name="menu_tyc">Términos y condiciones</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="law_ita">Law-ITA</string>
+    <string name="contrasena">Contraseña</string>
+    <string name="email">Email</string>
+    <string name="ingresar">Ingresar</string>
+    <string name="no_tiene_una_cuenta">¿No tiene una cuenta?</string>
+    <string name="registrarme_ahora">Registrarse ahora</string>
+    <string name="olvide_contraseña">¿Olvidó tu contraseña?</string>
+    <string name="recuperar_ahora">Recuperar ahora</string>
+    <string name="ingrese_sus_datos">Ingrese sus datos</string>
+    <string name="nombre">Nombre</string>
+    <string name="apellidos">Apellidos</string>
+    <string name="registrarse">Registrarse</string>
+    <string name="cancelar">Cancelar</string>
+    <string name="confirmar_password">Confirmar contraseña</string>
+    <string name="telefono">Teléfono</string>
+    <string name="llenar_campos">Asegúrese de llenar todos los campos</string>
+    <string name="registro_e">Registro exitoso</string>
+    <string name="correo_ya_registrado">Este correo ya está registrado</string>
+    <string name="no_match">Las contraseñas no coinciden</string>
+    <string name="llenar_campos_login">Por favor, llene todos los campos</string>
+    <string name="bienvenida">Bienvenido</string>
+    <string name="cerrar_sesion">Cerrar sesión</string>
+    <string name="menu">Menú</string>
+</resources>
