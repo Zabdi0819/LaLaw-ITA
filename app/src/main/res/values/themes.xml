@@ -2,8 +2,8 @@
     <!-- Base application theme. -->
     <style name="Theme.LawITA" parent="Theme.MaterialComponents.DayNight.DarkActionBar">
         <!-- Primary brand color. -->
-        <item name="colorPrimary">@color/purple_500</item>
-        <item name="colorPrimaryVariant">@color/purple_700</item>
+        <item name="colorPrimary">@color/law4</item>
+        <item name="colorPrimaryVariant">@color/law1</item>
         <item name="colorOnPrimary">@color/white</item>
         <!-- Secondary brand color. -->
         <item name="colorSecondary">@color/teal_200</item>
@@ -12,6 +12,10 @@
         <!-- Status bar color. -->
         <item name="android:statusBarColor" tools:targetApi="l">?attr/colorPrimaryVariant</item>
         <!-- Customize your theme here. -->
+    </style>
+
+    <style name="ActionBarLight" parent="android:style/Widget.Holo.Light.ActionBar">
+        <item name="android:background">#FFEB3B</item>
     </style>
 
     <style name="Theme.LawITA.NoActionBar">

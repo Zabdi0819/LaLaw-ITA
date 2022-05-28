@@ -115,35 +115,5 @@
             android:textColor="@color/black"/>
     </RelativeLayout>
 
-    <RelativeLayout
-        android:layout_width="wrap_content"
-        android:layout_height="40dp"
-        android:layout_gravity="center"
-        android:layout_marginTop="10dp"
-        android:orientation="horizontal">
-
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginStart="30dp"
-            android:text="@string/olvide_contraseña"
-            android:textSize="18sp"
-            android:textAlignment="center"
-            android:textColor="@color/black"/>
-
-        <TextView
-            android:id="@+id/recuperarC"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_alignParentEnd="true"
-            android:layout_marginStart="5dp"
-            android:layout_marginEnd="30dp"
-            android:text="@string/recuperar_ahora"
-            android:textSize="18sp"
-            android:textStyle="bold"
-            android:textAlignment="center"
-            android:textColor="@color/black"/>
-    </RelativeLayout>
-
 </LinearLayout>
 

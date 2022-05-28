@@ -42,4 +42,49 @@
     <string name="bienvenida">Bienvenido</string>
     <string name="cerrar_sesion">Cerrar sesión</string>
     <string name="menu">Menú</string>
+    <string name="help2"><![CDATA[En caso de ya llevar un caso, Soto & Hernández se compromete a mantenerle al tanto sobre su situación actual mediante una actualización constante de su expediente, el cual podrá consultar en la app.]]></string>
+    <string name="help1"><![CDATA[Law-ITA es una aplicación que facilita la labor de sacar una cita para recibir asesoramiento legal y que además, proporciona la información de contacto de los abogados que forman parte del despacho Soto & Hernández en caso de que desee comunicarse con alguno en específico. Si no es el caso, una vez que se realiza la cita, se analizará su situación y será canalizado con uno de los profesionales que laboran en el despacho.]]></string>
+    <string name="helpTopic">¿En qué consiste Law-ITA?</string>
+    <string name="pdp"> <b>Soto &amp; Hernández, Carreño-Beltran</b>, ubicados en Plaza Krystal, local 35, Av. López mateos colonia San Luis y Av. López Mateos número 902 interior A, colonia Gamez, Aguascalientes, Ags., es responsable de recabar sus datos personales, del uso que se le dé a los mismos y de su protección.
+    \n\n
+    Su información personal será utilizada para prestar los servicios profesionales de representación legal que ha contratado, realizar los trámites necesarios para los servicios de representación legal e informar sobre la situación y estado de los asuntos que sean llevados en su representación. De la misma forma, para aquellos que no hayan contratado sus servicios con nosotros, hemos obtenido sus datos de medio públicos de información como tarjetas de presentación; en general cualquiera de los datos recabados por nosotros, serán utilizados para hacerle llegar información que consideramos relevante respecto a actualización de nuestro despacho o actividades relevantes. Para las finalidades antes mencionadas, requerimos obtener los siguientes datos personales: nombre, domicilio, número(s) telefónico(s) y correo electrónico. La negativa para el uso de sus datos personales para estas finalidades no podrá ser un motivo para que le neguemos los servicios que solicita o contrata con nosotros.
+    \nn
+    Usted tiene derecho de acceder, rectificar y cancelar sus datos personales, así como de oponerse al tratamiento de los mismos o revocar el consentimiento que para tal fin nos haya otorgado, a través de los procedimientos implementados. Para conocer los procedimientos, requisitos y plazos para acceder, rectificar y cancelar sus datos, puede contactar a nuestro encargado de protección de datos personales: la señorita secretaria Jeymi o a los licenciados que se encuentren en el momento y correo electrónico: <b>lic.hernandez.victor@hotmail.com</b>
+    \n\n
+    Asimismo, informamos que sus datos personales pueden ser transferidos y tratados dentro y fuera del país, por personas distintas a este despacho. En ese sentido, su información puede ser compartida con otras sociedades o personas que presten servicios profesionales, para complementar los servicios legales que se han contratado y para contactar a peritos relacionados con los asuntos en los que usted sea representado. Si usted no manifiesta su oposición para que sus datos personales sean transferidos, se entenderá que ha otorgado su consentimiento para ello.
+    \n\n
+    Nos reservamos el derecho a efectuar en cualquier momento modificaciones o actualizaciones al presente aviso de privacidad. \n\n</string>
+    <string name="Tyc"><b>Obligatoriedad, Consentimiento y Aceptación:</b>
+    \n\n
+    Los Presentes Términos y Condiciones establecen las disposiciones y normas a las que todo individuo que decida interactuar con la App LAW-ITA, deberá obligarse y no será eximido de responsabilidad si incurriera en incumplimiento de las mismas.
+    \n\n
+    Ya que, al haber realizado visita y el haber interactuado con la App LAW-ITA, constituye de manera inequívoca e inmediata, el consentimiento tácito respecto al uso de la aplicación de los presentes Términos y Condiciones. Se le ruega al Usuario hacer lectura de estos últimos.
+    \n\n
+    <b>Definiciones:</b> \n Para facilidad del lector y para los efectos conducentes de los presentes Términos y Condiciones, Soto &amp; Hernadez en el presente apartado, proporciona las definiciones pertinentes de los siguientes conceptos, mismos que aparecerán más adelante en el presente documento. Las siguientes palabras deberán de ser interpretadas como se describe. Para efectos de diferenciación, los términos que en lo sucesivo se definen, serán descritos con la primera letra en mayúscula y únicamente cuando se utilicen con dicho formato es cuando deberán de interpretarse como tales.
+    \n\n
+    <b>Abogado: </b>Se refiere a todo profesional en el campo del Derecho que forma parte del Despacho Jurídico denominado como Soto &amp; Hernandez.
+    \n\n
+    <b>Carga (Upload): </b>Se refiere a toda operación voluntaria de índole informática que involucra la transferencia de Información almacenada en un dispositivo electrónico a una plataforma en línea.
+    \n\n
+    <b>Descarga (Download): </b>Se refiere a toda operación voluntaria de índole informática que involucra la transferencia de Información en línea a un dispositivo electrónico.
+    \n\n
+    <b>Contenido: </b>Se refiere a todo componente multimedia y/o información consistente de manera enunciativa más no limitativa en textos, gráficos, fotografías, logotipos, audio, video, marcas, imágenes, bases de datos, así como el diseño gráfico, código fuente y software, que sean propiedad de Soto &amp; Hernandez.
+    \n\n
+    <b>Despacho:</b> Se refiere al Despacho Jurídico denominado como Soto &amp; Hernández.
+    \n\n
+    <b>Elemento(s): </b>Se refiere a todo componente multimedia y/o información consistente de manera enunciativa más no limitativa en textos, gráficos, fotografías, logotipos, audio, video, marcas, imágenes, bases de datos, así como el diseño gráfico, código fuente y software, que sean propiedad de terceros.
+    \n\n
+    <b>Usuario: </b>Se refiere a todo aquel individuo que obtenga acceso e interactúe con o navegue en el Sitio Web. \n\n</string>
+    <string name="helpTitle">Ayuda</string>
+    <string name="settingTitle">Configuración</string>
+    <string name="inicioTxt">  El despacho <b> Soto &amp; Hernández </b> está a tus órdenes.
+        \n\n Profesionales en distintas materias. </string>
+    <string name="citaTxt">Agenda tu cita para recibir asesoría, o en su defecto, consulta nuestra lista de abogados para ponerte en contacto con uno de ellos.</string>
+    <string name="ver_materias">Ver materias</string>
+    <string name="agendar_cita">Agendar cita</string>
+    <string name="ver_abogados">Ver abogados</string>
+    <string name="inicioTitulo">Asesoría legal GRATUITA</string>
+    <string name="ver_cita_txt">¿Ya tienes una cita? Consúltala aquí:</string>
+    <string name="ver_citas">Ver citas</string>
+    <string name="agendar_cita_act">Agendar cita</string>
 </resources>

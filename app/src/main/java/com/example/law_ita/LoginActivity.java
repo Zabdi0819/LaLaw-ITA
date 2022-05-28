@@ -21,7 +21,6 @@ public class LoginActivity extends AppCompatActivity {
 
     private EditText email;
     private EditText password;
-    private TextView recuperarC;
     private FirebaseAuth mAuth;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -34,7 +33,6 @@ public class LoginActivity extends AppCompatActivity {
         password = findViewById(R.id.password);
         Button loginBtn = findViewById(R.id.loginBtn);
         TextView registerBtn = findViewById(R.id.registerBtn);
-        recuperarC = findViewById(R.id.recuperarC);
 
         loginBtn.setOnClickListener(new View.OnClickListener() {
             @Override
