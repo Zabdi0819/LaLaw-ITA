@@ -31,7 +31,7 @@
             android:id="@+id/editTextDate"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginEnd="50dp"
+            android:layout_marginEnd="30dp"
             android:layout_alignParentEnd="true"
             android:ems="10"
             android:inputType="date"
@@ -52,7 +52,7 @@
             android:layout_height="wrap_content"
             android:layout_alignParentBottom="true"
             android:layout_marginStart="30dp"
-            android:text="Hora"
+            android:text="@string/hora"
             android:textSize="18sp"
             app:layout_constraintEnd_toStartOf="@+id/editTextTime"
             app:layout_constraintHorizontal_bias="0.0"
@@ -63,7 +63,7 @@
             android:id="@+id/editTextTime"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginEnd="50dp"
+            android:layout_marginEnd="30dp"
             android:layout_alignParentEnd="true"
             android:ems="10"
             android:inputType="date"
@@ -78,7 +78,7 @@
         android:layout_gravity="center_horizontal"
         android:layout_marginTop="40dp"
         android:fontFamily="sans-serif-condensed"
-        android:text="Agrega una breve explicación de tu caso:"
+        android:text="@string/explicacion"
         android:textSize="22sp"
         android:textStyle="bold"
         android:textColor="@color/black"
@@ -87,7 +87,7 @@
         tools:layout_editor_absoluteY="314dp" />
 
     <EditText
-        android:id="@+id/editTextTextMultiLine"
+        android:id="@+id/editTextDescripcion"
         android:layout_width="347dp"
         android:layout_height="205dp"
         android:layout_gravity="center_horizontal"
@@ -106,7 +106,21 @@
         android:layout_height="55dp"
         android:layout_marginTop="30dp"
         android:layout_gravity="center_horizontal"
-        android:text="Agendar"
+        android:text="@string/agendar"
         android:textSize="18sp"
         app:layout_constraintEnd_toStartOf="@+id/editTextTime"/>
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="40dp"
+        android:fontFamily="sans-serif-condensed"
+        android:textSize="22sp"
+        android:textStyle="bold"
+        android:textColor="@color/black"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="314dp" />
 </LinearLayout>

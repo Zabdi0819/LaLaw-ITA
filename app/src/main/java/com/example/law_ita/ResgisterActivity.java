@@ -112,14 +112,14 @@ public class ResgisterActivity extends AppCompatActivity {
                         documentReference.set(user).addOnSuccessListener(new OnSuccessListener<Void>() {
                             @Override
                             public void onSuccess(Void unused) {
-                                Log.d("TAG", "onSuccess: Registro exitoso" + userId);
+                                Log.d("TAG", getString(R.string.registroExitoso) + userId);
                             }
                         });
-                        Toast.makeText(ResgisterActivity.this, "Usuario registrado", Toast.LENGTH_SHORT).show();
+                        Toast.makeText(ResgisterActivity.this, R.string.usuarioR, Toast.LENGTH_SHORT).show();
                         startActivity(new Intent(ResgisterActivity.this, MainActivity.class));
                     }
                     else{
-                        Toast.makeText(ResgisterActivity.this, "Usuario no registrado"+task.getException(), Toast.LENGTH_SHORT).show();
+                        Toast.makeText(ResgisterActivity.this, getString(R.string.usuarioNR) +task.getException(), Toast.LENGTH_SHORT).show();
                     }
                 }
             });

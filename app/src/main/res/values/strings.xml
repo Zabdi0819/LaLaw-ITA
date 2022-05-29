@@ -79,7 +79,7 @@
     <string name="settingTitle">Configuración</string>
     <string name="inicioTxt">  El despacho <b> Soto &amp; Hernández </b> está a tus órdenes.
         \n\n Profesionales en distintas materias. </string>
-    <string name="citaTxt">Agenda tu cita para recibir asesoría, o en su defecto, consulta nuestra lista de abogados para ponerte en contacto con uno de ellos.</string>
+    <string name="citaTxt">Agenda tu cita para recibir asesoría o consulta nuestra lista de abogados para ponerte en contacto con uno de ellos.</string>
     <string name="ver_materias">Ver materias</string>
     <string name="agendar_cita">Agendar cita</string>
     <string name="ver_abogados">Ver abogados</string>
@@ -87,4 +87,11 @@
     <string name="ver_cita_txt">¿Ya tienes una cita? Consúltala aquí:</string>
     <string name="ver_citas">Ver citas</string>
     <string name="agendar_cita_act">Agendar cita</string>
+    <string name="explicacion">Agrega una breve explicación de tu caso:</string>
+    <string name="agendar">Agendar</string>
+    <string name="hora">Hora</string>
+    <string name="registroExitoso">onSuccess: Registro exitoso</string>
+    <string name="usuarioR">Usuario registrado</string>
+    <string name="usuarioNR">Usuario no registrado</string>
+    <string name="citaExitosa">onSuccess: Cita agendada</string>
 </resources>

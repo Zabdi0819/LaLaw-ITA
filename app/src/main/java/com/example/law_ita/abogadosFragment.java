@@ -3,10 +3,18 @@ package com.example.law_ita;
 import android.os.Bundle;
 
 import androidx.fragment.app.Fragment;
+import androidx.recyclerview.widget.LinearLayoutManager;
+import androidx.recyclerview.widget.RecyclerView;
 
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.EditText;
+
+import com.firebase.ui.firestore.FirestoreRecyclerOptions;
+import com.google.firebase.FirebaseOptions;
+import com.google.firebase.database.FirebaseDatabase;
+import com.google.firebase.firestore.FirebaseFirestore;
 
 /**
  * A simple {@link Fragment} subclass.
@@ -23,6 +31,10 @@ public class abogadosFragment extends Fragment {
     // TODO: Rename and change types of parameters
     private String mParam1;
     private String mParam2;
+
+    private View AbogadosView;
+    private RecyclerView abogadosList;
+    AbogadosAdapter adapter;
 
     public abogadosFragment() {
         // Required empty public constructor
@@ -59,6 +71,32 @@ public class abogadosFragment extends Fragment {
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
         // Inflate the layout for this fragment
-        return inflater.inflate(R.layout.fragment_abogados, container, false);
+        AbogadosView = inflater.inflate(R.layout.fragment_abogados, container, false);
+        abogadosList = (RecyclerView) AbogadosView.findViewById(R.id.recyclerAbogados);
+        abogadosList.setLayoutManager(new LinearLayoutManager(getContext()));
+
+        FirestoreRecyclerOptions<abogado> options =
+                new FirestoreRecyclerOptions.Builder<abogado>()
+                        .setQuery(FirebaseFirestore.getInstance().collection("abogados")
+                                , abogado.class).build();
+
+        adapter = new AbogadosAdapter(options);
+        abogadosList.setAdapter(adapter);
+
+        return AbogadosView;
+    }
+
+    @Override
+    public void onStart() {
+        super.onStart();
+        adapter.startListening();
+        //FirestoreRecyclerOptions<Chat> options = new FirestoreRecyclerOptions.Builder<Chat>()
+    }
+
+    @Override
+    public void onStop() {
+        super.onStop();
+        adapter.startListening();
+        //FirestoreRecyclerOptions<Chat> options = new FirestoreRecyclerOptions.Builder<Chat>()
     }
 }
