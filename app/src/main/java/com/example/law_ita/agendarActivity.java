@@ -159,52 +159,5 @@ public class agendarActivity extends AppCompatActivity implements View.OnClickLi
                 }
             }
         });
-
-        /**documentReference.addSnapshotListener(this, new EventListener<DocumentSnapshot>() {
-            @Override
-            public void onEvent(@Nullable DocumentSnapshot documentSnapshot, @Nullable FirebaseFirestoreException error) {
-                name = documentSnapshot.getString("Name");
-                lastname = documentSnapshot.getString("Lastname");
-                phone =  documentSnapshot.getString("Phone");
-                email =  documentSnapshot.getString("Email");
-            }
-        });
-
-
-        FirebaseUser user = FirebaseAuth.getInstance().getCurrentUser();
-        if (user != null) {
-            //Obtener datos de usuario
-            String name = user.getDisplayName();
-            String lastname = user.getDisplayName();
-            String phone = user.getPhoneNumber();
-            String email = user.getEmail();
-
-            // Check if user's email is verified
-            boolean emailVerified = user.isEmailVerified();
-
-            // The user's ID, unique to the Firebase project. Do NOT use this value to
-            // authenticate with your backend server, if you have one. Use
-            // FirebaseUser.getIdToken() instead.
-
-            //Agendar cita**/
-
-            /**documentReference = db.collection("citas").document(userId);
-            Map<String, Object> cita=new HashMap<>();
-            cita.put("Name", name);
-            cita.put("Last name", lastname);
-            cita.put("Phone", phone);
-            cita.put("Email", email);
-            cita.put("Date", fecha);
-            cita.put("Time", hora);
-            cita.put("Description", descripcion);
-
-            documentReference.set(cita).addOnSuccessListener(new OnSuccessListener<Void>() {
-                @Override
-                public void onSuccess(Void unused) {
-                    Log.d("TAG", getString(R.string.citaExitosa) + userId);
-                }
-            });
-            Toast.makeText(agendarActivity.this, "Cita agendada correctamente", Toast.LENGTH_SHORT).show();
-            startActivity(new Intent(agendarActivity.this, MainActivity.class));**/
-        }
     }
+}

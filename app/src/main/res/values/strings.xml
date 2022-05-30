@@ -83,7 +83,7 @@
     <string name="ver_materias">Ver materias</string>
     <string name="agendar_cita">Agendar cita</string>
     <string name="ver_abogados">Ver abogados</string>
-    <string name="inicioTitulo">Asesoría legal GRATUITA</string>
+    <string name="inicioTitulo">Primera asesoría jurídica GRATUITA</string>
     <string name="ver_cita_txt">¿Ya tienes una cita? Consúltala aquí:</string>
     <string name="ver_citas">Ver citas</string>
     <string name="agendar_cita_act">Agendar cita</string>
@@ -94,4 +94,9 @@
     <string name="usuarioR">Usuario registrado</string>
     <string name="usuarioNR">Usuario no registrado</string>
     <string name="citaExitosa">onSuccess: Cita agendada</string>
+    <string name="nombreA">Nombre:</string>
+    <string name="telefonoA">Teléfono:</string>
+    <string name="emailA">Email:</string>
+    <string name="domicilioA">Domicilio:</string>
+    <string name="materiasA">Materias:</string>
 </resources>
