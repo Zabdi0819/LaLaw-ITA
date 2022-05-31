@@ -1,56 +1,59 @@
 <resources>
-    <string name="app_name">Law-ITA</string>
-    <string name="navigation_drawer_open">Open navigation drawer</string>
-    <string name="navigation_drawer_close">Close navigation drawer</string>
-    <string name="nav_header_title">Android Studio</string>
-    <string name="nav_header_subtitle">android.studio@android.com</string>
-    <string name="nav_header_desc">Navigation header</string>
-    <string name="action_settings">Configuración</string>
-    <string name="action_help">Ayuda</string>
+    <string name="app_name" translatable="false">Law-ITA</string>
+    <string name="navigation_drawer_open" translatable="false">Open navigation drawer</string>
+    <string name="navigation_drawer_close" translatable="false">Close navigation drawer</string>
+    <string name="nav_header_title" translatable="false">Android Studio</string>
+    <string name="nav_header_subtitle" translatable="false">android.studio@android.com</string>
+    <string name="nav_header_desc" translatable="false">Navigation header</string>
+    <string name="action_settings" translatable="false">Configuración</string>
+    <string name="action_help" translatable="false">Ayuda</string>
 
-    <string name="menu_home">Inicio</string>
-    <string name="menu_exp">Expediente</string>
-    <string name="menu_materias">Materias</string>
-    <string name="menu_abogados">Abogados</string>
-    <string name="menu_conocenos">Conócenos</string>
-    <string name="menu_contacto">Contacto</string>
-    <string name="menu_calif">Califícanos</string>
-    <string name="menu_pdp">Políticas de privacidad</string>
-    <string name="menu_tyc">Términos y condiciones</string>
+    <string name="menu_home" translatable="false">Inicio</string>
+    <string name="menu_exp" translatable="false">Expediente</string>
+    <string name="menu_materias" translatable="false">Materias</string>
+    <string name="menu_abogados" translatable="false">Abogados</string>
+    <string name="menu_conocenos" translatable="false">Conócenos</string>
+    <string name="menu_contacto" translatable="false">Contacto</string>
+    <string name="menu_calif" translatable="false">Califícanos</string>
+    <string name="menu_pdp" translatable="false">Políticas de privacidad</string>
+    <string name="menu_tyc" translatable="false">Términos y condiciones</string>
     <!-- TODO: Remove or change this placeholder text -->
-    <string name="hello_blank_fragment">Hello blank fragment</string>
-    <string name="law_ita">Law-ITA</string>
-    <string name="contrasena">Contraseña</string>
-    <string name="email">Email</string>
-    <string name="ingresar">Ingresar</string>
-    <string name="no_tiene_una_cuenta">¿No tiene una cuenta?</string>
-    <string name="registrarme_ahora">Registrarse ahora</string>
-    <string name="olvide_contraseña">¿Olvidó tu contraseña?</string>
-    <string name="recuperar_ahora">Recuperar ahora</string>
-    <string name="ingrese_sus_datos">Ingrese sus datos</string>
-    <string name="nombre">Nombre</string>
-    <string name="apellidos">Apellidos</string>
-    <string name="registrarse">Registrarse</string>
-    <string name="cancelar">Cancelar</string>
-    <string name="confirmar_password">Confirmar contraseña</string>
-    <string name="telefono">Teléfono</string>
-    <string name="llenar_campos">Asegúrese de llenar todos los campos</string>
-    <string name="registro_e">Registro exitoso</string>
-    <string name="correo_ya_registrado">Este correo ya está registrado</string>
-    <string name="no_match">Las contraseñas no coinciden</string>
-    <string name="llenar_campos_login">Por favor, llene todos los campos</string>
-    <string name="bienvenida">Bienvenido</string>
-    <string name="cerrar_sesion">Cerrar sesión</string>
-    <string name="menu">Menú</string>
-    <string name="help2"><![CDATA[En caso de ya llevar un caso, Soto & Hernández se compromete a mantenerle al tanto sobre su situación actual mediante una actualización constante de su expediente, el cual podrá consultar en la app.]]></string>
-    <string name="help1"><![CDATA[Law-ITA es una aplicación que facilita la labor de sacar una cita para recibir asesoramiento legal y que además, proporciona la información de contacto de los abogados que forman parte del despacho Soto & Hernández en caso de que desee comunicarse con alguno en específico. Si no es el caso, una vez que se realiza la cita, se analizará su situación y será canalizado con uno de los profesionales que laboran en el despacho.]]></string>
-    <string name="helpTopic">¿En qué consiste Law-ITA?</string>
-    <string name="pdp"> <b>Soto &amp; Hernández, Carreño-Beltran</b>, ubicados en Plaza Krystal, local 35, Av. López mateos colonia San Luis y Av. López Mateos número 902 interior A, colonia Gamez, Aguascalientes, Ags., es responsable de recabar sus datos personales, del uso que se le dé a los mismos y de su protección.
+    <string name="hello_blank_fragment" translatable="false">Hello blank fragment</string>
+    <string name="law_ita" translatable="false">Law-ITA</string>
+    <string name="contrasena" translatable="false">Contraseña</string>
+    <string name="email" translatable="false">Email</string>
+    <string name="ingresar" translatable="false">Ingresar</string>
+    <string name="no_tiene_una_cuenta" translatable="false">¿No tiene una cuenta?</string>
+    <string name="registrarme_ahora" translatable="false">Registrarse ahora</string>
+    <string name="olvide_contraseña" translatable="false">¿Olvidó tu contraseña?</string>
+    <string name="recuperar_ahora" translatable="false">Recuperar ahora</string>
+    <string name="ingrese_sus_datos" translatable="false">Ingrese sus datos</string>
+    <string name="nombre" translatable="false">Nombre</string>
+    <string name="apellidos" translatable="false">Apellidos</string>
+    <string name="registrarse" translatable="false">Registrarse</string>
+    <string name="cancelar" translatable="false">Cancelar</string>
+    <string name="confirmar_password" translatable="false">Confirmar contraseña</string>
+    <string name="telefono" translatable="false">Teléfono</string>
+    <string name="llenar_campos" translatable="false">Asegúrese de llenar todos los campos</string>
+    <string name="registro_e" translatable="false">Registro exitoso</string>
+    <string name="correo_ya_registrado" translatable="false">Este correo ya está registrado</string>
+    <string name="no_match" translatable="false">Las contraseñas no coinciden</string>
+    <string name="llenar_campos_login" translatable="false">Por favor, llene todos los campos</string>
+    <string name="bienvenida" translatable="false">Bienvenido</string>
+    <string name="cerrar_sesion" translatable="false">Cerrar sesión</string>
+    <string name="menu" translatable="false">Menú</string>
+
+    <string name="help2" translatable="false"><![CDATA[En caso de ya llevar un caso, Soto & Hernández se compromete a mantenerle al tanto sobre su situación actual mediante una actualización constante de su expediente, el cual podrá consultar en la app.]]></string>
+    <string name="help1" translatable="false"><![CDATA[Law-ITA es una aplicación que facilita la labor de sacar una cita para recibir asesoramiento legal y que además, proporciona la información de contacto de los abogados que forman parte del despacho Soto & Hernández en caso de que desee comunicarse con alguno en específico. Si no es el caso, una vez que se realiza la cita, se analizará su situación y será canalizado con uno de los profesionales que laboran en el despacho.]]></string>
+    <string name="helpTopic" translatable="false">¿En qué consiste Law-ITA?</string>
+
+    <string name="pdp" translatable="false"> <b>Soto &amp; Hernández, Carreño-Beltran</b>, ubicados en Plaza Krystal, local 35, Av. López mateos colonia San Luis y Av. López Mateos número 902 interior A, colonia Gamez, Aguascalientes, Ags., es responsable de recabar sus datos personales, del uso que se le dé a los mismos y de su protección.
     \n\nSu información personal será utilizada para prestar los servicios profesionales de representación legal que ha contratado, realizar los trámites necesarios para los servicios de representación legal e informar sobre la situación y estado de los asuntos que sean llevados en su representación. De la misma forma, para aquellos que no hayan contratado sus servicios con nosotros, hemos obtenido sus datos de medio públicos de información como tarjetas de presentación; en general cualquiera de los datos recabados por nosotros, serán utilizados para hacerle llegar información que consideramos relevante respecto a actualización de nuestro despacho o actividades relevantes. Para las finalidades antes mencionadas, requerimos obtener los siguientes datos personales: nombre, domicilio, número(s) telefónico(s) y correo electrónico. La negativa para el uso de sus datos personales para estas finalidades no podrá ser un motivo para que le neguemos los servicios que solicita o contrata con nosotros.
     \nnUsted tiene derecho de acceder, rectificar y cancelar sus datos personales, así como de oponerse al tratamiento de los mismos o revocar el consentimiento que para tal fin nos haya otorgado, a través de los procedimientos implementados. Para conocer los procedimientos, requisitos y plazos para acceder, rectificar y cancelar sus datos, puede contactar a nuestro encargado de protección de datos personales: la señorita secretaria Jeymi o a los licenciados que se encuentren en el momento y correo electrónico: <b>lic.hernandez.victor@hotmail.com</b>
     \n\nAsimismo, informamos que sus datos personales pueden ser transferidos y tratados dentro y fuera del país, por personas distintas a este despacho. En ese sentido, su información puede ser compartida con otras sociedades o personas que presten servicios profesionales, para complementar los servicios legales que se han contratado y para contactar a peritos relacionados con los asuntos en los que usted sea representado. Si usted no manifiesta su oposición para que sus datos personales sean transferidos, se entenderá que ha otorgado su consentimiento para ello.
     \n\nNos reservamos el derecho a efectuar en cualquier momento modificaciones o actualizaciones al presente aviso de privacidad. \n\n</string>
-    <string name="Tyc"><b>Obligatoriedad, Consentimiento y Aceptación:</b>
+
+    <string name="Tyc" translatable="false"><b>Obligatoriedad, Consentimiento y Aceptación:</b>
     \n\nLos Presentes Términos y Condiciones establecen las disposiciones y normas a las que todo individuo que decida interactuar con la App LAW-ITA, deberá obligarse y no será eximido de responsabilidad si incurriera en incumplimiento de las mismas.
     \n\nYa que, al haber realizado visita y el haber interactuado con la App LAW-ITA, constituye de manera inequívoca e inmediata, el consentimiento tácito respecto al uso de la aplicación de los presentes Términos y Condiciones. Se le ruega al Usuario hacer lectura de estos últimos.
     \n\n<b>Definiciones:</b> \n Para facilidad del lector y para los efectos conducentes de los presentes Términos y Condiciones, Soto &amp; Hernadez en el presente apartado, proporciona las definiciones pertinentes de los siguientes conceptos, mismos que aparecerán más adelante en el presente documento. Las siguientes palabras deberán de ser interpretadas como se describe. Para efectos de diferenciación, los términos que en lo sucesivo se definen, serán descritos con la primera letra en mayúscula y únicamente cuando se utilicen con dicho formato es cuando deberán de interpretarse como tales.
@@ -61,47 +64,50 @@
     \n\n<b>Despacho:</b> Se refiere al Despacho Jurídico denominado como Soto &amp; Hernández.
     \n\n<b>Elemento(s): </b>Se refiere a todo componente multimedia y/o información consistente de manera enunciativa más no limitativa en textos, gráficos, fotografías, logotipos, audio, video, marcas, imágenes, bases de datos, así como el diseño gráfico, código fuente y software, que sean propiedad de terceros.
     \n\n<b>Usuario: </b>Se refiere a todo aquel individuo que obtenga acceso e interactúe con o navegue en el Sitio Web. \n\n</string>
-    <string name="helpTitle">Ayuda</string>
-    <string name="settingTitle">Configuración</string>
-    <string name="inicioTxt">  El despacho <b> Soto &amp; Hernández </b> está a tus órdenes.
-        \n\nProfesionales en distintas materias.</string>
-    <string name="citaTxt">Agenda tu cita para recibir asesoría o consulta nuestra lista de abogados en el menú principal para ponerte en contacto con uno de ellos.</string>
-    <string name="ver_materias">Ver materias</string>
-    <string name="agendar_cita">Agendar cita</string>
-    <string name="ver_abogados">Ver abogados</string>
-    <string name="inicioTitulo">Primera asesoría jurídica GRATUITA</string>
-    <string name="ver_cita_txt">¿Ya tienes una cita? Consúltala aquí:</string>
-    <string name="ver_citas">Ver cita</string>
-    <string name="agendar_cita_act">Agendar cita</string>
-    <string name="explicacion">Agrega una breve explicación de tu caso:</string>
-    <string name="agendar">Agendar</string>
-    <string name="hora">Hora</string>
-    <string name="registroExitoso">onSuccess: Registro exitoso</string>
-    <string name="usuarioR">Usuario registrado</string>
-    <string name="usuarioNR">Usuario no registrado</string>
-    <string name="citaExitosa">onSuccess: Cita agendada</string>
-    <string name="nombreA">Nombre:</string>
-    <string name="telefonoA">Teléfono:</string>
-    <string name="emailA">Email:</string>
-    <string name="domicilioA">Domicilio:</string>
-    <string name="materiasA">Materias:</string>
 
-    <string name="conocenos"><b>Soto &amp; Hernández</b>, despacho de abogados que ofrece asesoramiento legal integral a particulares. Asesoramos de forma preventiva. Nos gusta predecir situaciones y evitar problemas a nuestros clientes, pero también ofrecemos la mejor respuesta jurídica ante situaciones imprevisibles o inevitables.
+    <string name="helpTitle" translatable="false">Ayuda</string>
+    <string name="settingTitle" translatable="false">Configuración</string>
+    <string name="inicioTxt" translatable="false">  El despacho <b> Soto &amp; Hernández </b> está a tus órdenes.
+        \n\nProfesionales en distintas materias.</string>
+    <string name="citaTxt" translatable="false">Agenda tu cita para recibir asesoría o consulta nuestra lista de abogados en el menú principal para ponerte en contacto con uno de ellos.</string>
+    <string name="ver_materias" translatable="false">Ver materias</string>
+    <string name="agendar_cita" translatable="false">Agendar cita</string>
+    <string name="ver_abogados" translatable="false">Ver abogados</string>
+
+    <string name="inicioTitulo" translatable="false">Primera asesoría jurídica GRATUITA</string>
+    <string name="ver_cita_txt" translatable="false">¿Ya tienes una cita? Consúltala aquí:</string>
+    <string name="ver_citas" translatable="false">Ver cita</string>
+    <string name="agendar_cita_act" translatable="false">Agendar cita</string>
+    <string name="explicacion" translatable="false">Agrega una breve explicación de tu caso:</string>
+    <string name="agendar" translatable="false">Agendar</string>
+    <string name="hora" translatable="false">Hora</string>
+    <string name="registroExitoso" translatable="false">onSuccess: Registro exitoso</string>
+    <string name="usuarioR" translatable="false">Usuario registrado</string>
+    <string name="usuarioNR" translatable="false">Usuario no registrado</string>
+    <string name="citaExitosa" translatable="false">onSuccess: Cita agendada</string>
+    <string name="nombreA" translatable="false">Nombre:</string>
+    <string name="telefonoA" translatable="false">Teléfono:</string>
+    <string name="emailA" translatable="false">Email:</string>
+    <string name="domicilioA" translatable="false">Domicilio:</string>
+    <string name="materiasA" translatable="false">Materias:</string>
+
+    <string name="conocenos" translatable="false"><b>Soto &amp; Hernández</b>, despacho de abogados que ofrece asesoramiento legal integral a particulares. Asesoramos de forma preventiva. Nos gusta predecir situaciones y evitar problemas a nuestros clientes, pero también ofrecemos la mejor respuesta jurídica ante situaciones imprevisibles o inevitables.
         \n\nLa alta especialización de nuestros abogados nos permite poder atender cualquier necesidad jurídica que se les pueda plantear a nuestros clientes, ya sea en su esfera privada o en su esfera profesional. Nos mueve proporcionar soluciones prácticas y reales.
         \n\nFormación, compromiso y empatía son cualidades que forman parte del ADN de los integrantes de <b>Soto &amp; Hernández Abogados</b>. Para nosotros, el ejercicio del derecho no es sólo una profesión, sinó nuestra vocación.</string>
-    <string name="contactanosTxt"><b>Soto &amp; Hernández Abogados</b>
+    <string name="contactanosTxt" translatable="false"><b>Soto &amp; Hernández Abogados</b>
         \n\n<b>Teléfono:</b> 449-285-60-90
     </string>
-    <string name="emailContacto"><b>Email:</b> sotoyhernandez2000@gmail.com</string>
-    <string name="direccionContacto"><b>\nDirección:</b> \nPlaza Krystal, local 35, Av. López Mateos, Colonia San Luis \ny\nAv. López Mateos número 902 interior A, Colonia Gamez \nAguascalientes, Ags.
-</string>
-    <string name="una_cita"><i>Nota: solo es posible agendar una cita</i></string>
-    <string name="fechaC">Fecha</string>
-    <string name="actualizar_cita">Actualizar cita</string>
-    <string name="vercita">Ver cita</string>
-    <string name="ratingTitle">¿Qué te pareció la app?</string>
-    <string name="agrega_un_comentario">Agrega un comentario</string>
-    <string name="c_r">Comentario registrado</string>
-    <string name="comentario">Comentario: \n</string>
-    <string name="apellido">Apellido</string>
+    <string name="emailContacto" translatable="false"><b>Email:</b> sotoyhernandez2000@gmail.com</string>
+    <string name="direccionContacto" translatable="false"><b>\nDirección:</b> \nPlaza Krystal, local 35, Av. López Mateos, Colonia San Luis \ny\nAv. López Mateos número 902 interior A, Colonia Gamez \nAguascalientes, Ags.
+    </string>
+
+    <string name="una_cita" translatable="false"><i>Nota: solo es posible agendar una cita</i></string>
+    <string name="fechaC" translatable="false">Fecha</string>
+    <string name="actualizar_cita" translatable="false">Actualizar cita</string>
+    <string name="vercita" translatable="false">Ver cita</string>
+    <string name="ratingTitle" translatable="false">¿Qué te pareció la app?</string>
+    <string name="agrega_un_comentario" translatable="false">Agrega un comentario</string>
+    <string name="c_r" translatable="false">Comentario registrado</string>
+    <string name="comentario" translatable="false">Comentario: \n</string>
+    <string name="apellido" translatable="false">Apellido</string>
 </resources>

@@ -12,11 +12,11 @@ public class settingsActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_settings);
-        this.setTitle(getString(R.string.settingTitle));
+        /**this.setTitle(getString(R.string.settingTitle));
         Toolbar toolbar = (Toolbar) findViewById(R.id.settingsActivity);
         setSupportActionBar(toolbar);
         getSupportActionBar().setDisplayShowTitleEnabled(true);
-        getSupportActionBar().setDisplayHomeAsUpEnabled(true);
+        getSupportActionBar().setDisplayHomeAsUpEnabled(true);**/
 
     }
 

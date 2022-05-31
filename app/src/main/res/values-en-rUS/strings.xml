@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name" translatable="false">Law-ITA</string>
+    <string name="navigation_drawer_open" translatable="false">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+    <string name="action_help">Help</string>
+
+    <string name="menu_home">Home</string>
+    <string name="menu_exp">File</string>
+    <string name="menu_materias" translatable="false">Subjects</string>
+    <string name="menu_abogados">Lawyers</string>
+    <string name="menu_conocenos">Get to know us</string>
+    <string name="menu_contacto">Contact</string>
+    <string name="menu_calif">Rate us</string>
+    <string name="menu_pdp">Privacy policies</string>
+    <string name="menu_tyc">Terms and conditions</string>
+
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="law_ita">Law-ITA</string>
+    <string name="contrasena">Password</string>
+    <string name="email">Email</string>
+    <string name="ingresar">Enter</string>
+    <string name="no_tiene_una_cuenta">Dont you have an account?</string>
+    <string name="registrarme_ahora">Register now</string>
+    <string name="olvide_contraseña">Forgot your password?</string>
+    <string name="recuperar_ahora" translatable="false">Fetch Now</string>
+    <string name="ingrese_sus_datos" translatable="false">Enter your data</string>
+    <string name="nombre">Name</string>
+    <string name="apellidos">Last name</string>
+    <string name="registrarse">Register</string>
+    <string name="cancelar">Cancel</string>
+    <string name="confirmar_password">Confirm password</string>
+    <string name="telefono">Phone</string>
+    <string name="llenar_campos">Make sure to fill in all the fields</string>
+    <string name="registro_e">Registration successful</string>
+    <string name="correo_ya_registrado">This email is already registered</string>
+    <string name="no_match">Passwords do not match</string>
+    <string name="llenar_campos_login">Please fill in all the fields</string>
+    <string name="bienvenida">Welcome</string>
+    <string name="cerrar_sesion">Logout</string>
+    <string name="menu">Menu</string>
+
+    <string name="help2" translatable="false"><![CDATA[If you already have a case, Soto & Hernández undertakes to keep you up to date on your current situation by constantly updating your file, which may consult in the app.]]></string>
+    <string name="help1" translatable="false"><![CDATA[Law-ITA is an application that facilitates the task of making an appointment to receive legal advice and that also provides the contact information of the lawyers that are part of the Soto & Hernández office in case you wish to contact someone in particular. If this is not the case, once the appointment is made, your situation will be analyzed and you will be referred to one of the professionals who work in the office.]]></string>
+    <string name="helpTopic" translatable="false">What is Law-ITA?</string>
+
+    <string name="pdp" translatable="false"> <b>Soto &amp; Hernández, Carreño-Beltran</b>, located in Plaza Krystal, local 35, Av. López mateos, San Luis neighborhood and Av. López Mateos number 902 interior A, Gamez neighborhood, Aguascalientes, Ags., is responsible for collecting your personal data , of the use that is given to them and their protection.
+    \n\nYour personal information will be used to provide the professional services of legal representation that you have contracted, carry out the necessary procedures for legal representation services and report on the situation and status of the matters that are carried out on your behalf. In the same way, for those who have not contracted their services with us, we have obtained their data from public information media such as business cards; In general, any of the data collected by us will be used to send you information that we consider relevant regarding the updating of our office or relevant activities. For the aforementioned purposes, we need to obtain the following personal data: name, address, telephone number(s) and email. The refusal to use your personal data for these purposes may not be a reason for us to deny you the services you request or contract with us.
+    \nnYou have the right to access, rectify and cancel your personal data, as well as to oppose their treatment or revoke the consent that you have given us for this purpose, through the implemented procedures. To know the procedures, requirements and terms to access, rectify and cancel your data, you can contact our personal data protection officer: Miss Secretary Jeymi or the graduates who are at the time and email: <b>lic. hernandez.victor@hotmail.com</b>
+    \n\nLikewise, we inform you that your personal data may be transferred and processed inside and outside the country, by people other than this office. In this sense, your information may be shared with other companies or persons that provide professional services, to complement the legal services that have been contracted and to contact experts related to the matters in which you are represented. If you do not express your opposition for your personal data to be transferred, it will be understood that you have given your consent for it.
+    \n\nWe reserve the right to make changes or updates to this privacy notice at any time. \n\n</string>
+
+    <string name="Tyc" translatable="false"><b>Obligation, Consent and Acceptance:</b>
+    \n\nThese Terms and Conditions establish the provisions and rules to which any individual who decides to interact with the LAW-ITA App must be bound and will not be exempt from liability if they fail to comply with them.
+    \n\nBecause, having made a visit and having interacted with the LAW-ITA App, it constitutes, unequivocally and immediately, the tacit consent regarding the use of the application of these Terms and Conditions. The User is requested to read the latter.
+    \n\n<b>Definitions:</b> \n For the convenience of the reader and for the purposes of these Terms and Conditions, Soto &amp; Hernadez in this section provides the pertinent definitions of the following concepts, which will appear later in this document. The following words should be interpreted as described. For purposes of differentiation, the terms defined hereinafter will be described with the first letter in capital letters and only when they are used in that format is when they should be interpreted as such.
+    \n\n<b>Lawyer: </b>Refers to any professional in the field of Law who is part of the Legal Office known as Soto &amp; Hernandez.
+    \n\n<b>Upload: </b>Refers to any voluntary operation of a computer nature that involves the transfer of Information stored in an electronic device to an online platform.
+    \n\n<b>Download: </b>Refers to any voluntary operation of a computer nature that involves the transfer of Information online to an electronic device.
+    \n\n<b>Content: </b>Refers to any multimedia component and/or information consisting of, but not limited to, texts, graphics, photographs, logos, audio, video, trademarks, images, databases , as well as the graphic design, source code and software, which are the property of Soto &amp; Hernandez.
+    \n\n<b>Firm:</b> Refers to the Legal Firm known as Soto &amp; Hernandez.
+    \n\n<b>Element(s): </b>Refers to any multimedia component and/or information consisting of, but not limited to, texts, graphics, photographs, logos, audio, video, trademarks, images, databases, as well as graphic design, source code and software, which are owned by third parties.
+    \n\n<b>User: </b>Refers to any individual who accesses and interacts with or browses the Website. \n\n</string>
+
+    <string name="helpTitle" translatable="false">Help</string>
+    <string name="settingTitle" translatable="false">Settings</string>
+    <string name="inicioTxt" translatable="false"> The office <b> Soto &amp; Hernández </b> is at your service.
+         \n\nProfessionals in different subjects.</string>
+    <string name="citaTxt" translatable="false">Schedule your appointment to receive advice or consult our list of lawyers in the main menu to get in touch with one of them.</string>
+    <string name="ver_materias" translatable="false">See subjects</string>
+    <string name="agendar_cita" translatable="false">Schedule appointment</string>
+    <string name="ver_abogados" translatable="false">See lawyers</string>
+
+    <string name="inicioTitulo" translatable="false">First FREE legal advice</string>
+    <string name="ver_cita_txt" translatable="false">Already have an appointment? Check it out here:</string>
+    <string name="ver_citas" translatable="false">View quote</string>
+    <string name="agendar_cita_act" translatable="false">Schedule appointment</string>
+    <string name="explicacion" translatable="false">Add a brief explanation of your case:</string>
+    <string name="agendar" translatable="false">Schedule</string>
+    <string name="hora" translatable="false">Time</string>
+    <string name="registroExitoso" translatable="false">onSuccess: Registration successful</string>
+    <string name="usuarioR" translatable="false">Registered user</string>
+    <string name="usuarioNR" translatable="false">User not registered</string>
+    <string name="citaExitosa" translatable="false">onSuccess: Appointment scheduled</string>
+    <string name="nombreA" translatable="false">Name:</string>
+    <string name="telefonoA" translatable="false">Phone:</string>
+    <string name="emailA" translatable="false">Email:</string>
+    <string name="domicilioA" translatable="false">Address:</string>
+    <string name="materiasA" translatable="false">Subjects:</string>
+
+    <string name="conocenos" translatable="false"><b>Soto &amp; Hernández</b>, a law firm that offers comprehensive legal advice to individuals. We advise preventively. We like to predict situations and avoid problems for our clients, but we also offer the best legal response to unforeseeable or unavoidable situations.
+        \n\nThe high specialization of our lawyers allows us to attend to any legal need that our clients may have, whether in their private sphere or in their professional sphere. It moves us to provide practical and real solutions.
+        \n\nTraining, commitment and empathy are qualities that are part of the DNA of the members of <b>Soto &amp; Hernandez Lawyers</b>. For us, the practice of law is not only a profession, but our vocation.</string>
+    <string name="contactanosTxt" translatable="false"><b>Soto &amp; Hernandez Lawyers</b>
+        \n\n<b>Phone:</b> 449-285-60-90
+    </string>
+    <string name="emailContacto" translatable="false"><b>Email:</b> sotoyhernandez2000@gmail.com</string>
+    <string name="direccionContacto" translatable="false"><b>\nAddress:</b> \nPlaza Krystal, local 35, Av. López Mateos, Colonia San Luis \ny\nAv. López Mateos number 902 interior A, Colonia Gamez \nAguascalientes, Ags.
+    </string>
+
+    <string name="una_cita" translatable="false"><i>Note: it is only possible to schedule an appointment</i></string>
+    <string name="fechaC" translatable="false">Date</string>
+    <string name="actualizar_cita" translatable="false">Update citation</string>
+    <string name="vercita" translatable="false">See citation</string>
+    <string name="ratingTitle" translatable="false">What did you think of the app?</string>
+    <string name="agrega_un_comentario" translatable="false">Add a comment</string>
+    <string name="c_r" translatable="false">Registered comment</string>
+    <string name="comentario" translatable="false">Comment: \n</string>
+    <string name="apellido" translatable="false">Last name</string>
+</resources>

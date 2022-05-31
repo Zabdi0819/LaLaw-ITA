@@ -3,10 +3,12 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
-        <entry key="..\:/Users/Zabdy/Documents/8vo/LawITA/app/src/main/res/layout-land/activity_help.xml" value="0.15211640211640212" />
+        <entry key="..\:/Users/Zabdy/Documents/8vo/LawITA/app/src/main/res/layout-land/activity_help.xml" value="0.1" />
+        <entry key="..\:/Users/Zabdy/Documents/8vo/LawITA/app/src/main/res/layout-land/fragment_pdp.xml" value="0.15211640211640212" />
+        <entry key="..\:/Users/Zabdy/Documents/8vo/LawITA/app/src/main/res/layout-land/fragment_tyc.xml" value="0.15211640211640212" />
         <entry key="..\:/Users/Zabdy/Documents/8vo/LawITA/app/src/main/res/layout/activity_agendar.xml" value="0.1796875" />
         <entry key="..\:/Users/Zabdy/Documents/8vo/LawITA/app/src/main/res/layout/activity_help.xml" value="0.1796875" />
-        <entry key="..\:/Users/Zabdy/Documents/8vo/LawITA/app/src/main/res/layout/activity_login.xml" value="0.22" />
+        <entry key="..\:/Users/Zabdy/Documents/8vo/LawITA/app/src/main/res/layout/activity_login.xml" value="0.10666666666666667" />
         <entry key="..\:/Users/Zabdy/Documents/8vo/LawITA/app/src/main/res/layout/activity_main.xml" value="0.14130434782608695" />
         <entry key="..\:/Users/Zabdy/Documents/8vo/LawITA/app/src/main/res/layout/activity_resgister.xml" value="0.1" />
         <entry key="..\:/Users/Zabdy/Documents/8vo/LawITA/app/src/main/res/layout/activity_settings2.xml" value="0.1796875" />
