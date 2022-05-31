@@ -10,16 +10,21 @@ import android.widget.TextView;
 
 import androidx.annotation.NonNull;
 import androidx.fragment.app.Fragment;
+import androidx.fragment.app.FragmentManager;
+import androidx.fragment.app.FragmentTransaction;
 import androidx.lifecycle.ViewModelProvider;
 
 import com.example.law_ita.R;
+import com.example.law_ita.abogadosFragment;
 import com.example.law_ita.agendarActivity;
 import com.example.law_ita.databinding.FragmentHomeBinding;
+import com.example.law_ita.materiasFragment;
+import com.example.law_ita.verCitaActivity;
 
 public class HomeFragment extends Fragment {
 
     private FragmentHomeBinding binding;
-    private Button agendar;
+    private Button agendar, ver;
 
     public View onCreateView(@NonNull LayoutInflater inflater,
                              ViewGroup container, Bundle savedInstanceState) {
@@ -29,6 +34,7 @@ public class HomeFragment extends Fragment {
         binding = FragmentHomeBinding.inflate(inflater, container, false);
         View root = binding.getRoot();
         agendar = (Button) root.findViewById(R.id.agendarBtn);
+        ver = (Button) root.findViewById(R.id.citasBtn);
 
         agendar.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -38,8 +44,14 @@ public class HomeFragment extends Fragment {
             }
         });
 
-        //final TextView textView = binding.textHome;
-        //homeViewModel.getText().observe(getViewLifecycleOwner(), textView::setText);
+        ver.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(getActivity(), verCitaActivity.class);
+                getActivity().startActivity(intent);
+            }
+        });
+
         return root;
     }
 

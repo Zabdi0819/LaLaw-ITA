@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    tools:context=".agendarActivity">
+    tools:context=".verCitaActivity">
 
     <RelativeLayout
         android:layout_width="wrap_content"
@@ -15,20 +15,20 @@
         android:orientation="horizontal">
 
         <Button
-            android:id="@+id/dateBtn"
+            android:id="@+id/dateCBtn"
             android:layout_width="110dp"
             android:layout_height="wrap_content"
             android:layout_alignParentBottom="true"
             android:layout_marginStart="30dp"
             android:text="@string/fechaC"
             android:textSize="18sp"
-            app:layout_constraintEnd_toStartOf="@+id/editTextDate"
+            app:layout_constraintEnd_toStartOf="@+id/editTextDateC"
             app:layout_constraintHorizontal_bias="0.0"
             app:layout_constraintStart_toStartOf="parent"
             tools:layout_editor_absoluteY="101dp" />
 
         <EditText
-            android:id="@+id/editTextDate"
+            android:id="@+id/editTextDateC"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginEnd="30dp"
@@ -47,20 +47,20 @@
         android:orientation="horizontal">
 
         <Button
-            android:id="@+id/timeBtn"
+            android:id="@+id/timeCBtn"
             android:layout_width="110dp"
             android:layout_height="wrap_content"
             android:layout_alignParentBottom="true"
             android:layout_marginStart="30dp"
             android:text="@string/hora"
             android:textSize="18sp"
-            app:layout_constraintEnd_toStartOf="@+id/editTextTime"
+            app:layout_constraintEnd_toStartOf="@+id/editTextTimeC"
             app:layout_constraintHorizontal_bias="0.0"
             app:layout_constraintStart_toStartOf="parent"
             tools:layout_editor_absoluteY="101dp" />
 
         <EditText
-            android:id="@+id/editTextTime"
+            android:id="@+id/editTextTimeC"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginEnd="30dp"
@@ -72,7 +72,7 @@
     </RelativeLayout>
 
     <TextView
-        android:id="@+id/textView5"
+        android:id="@+id/textView5C"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_gravity="center_horizontal"
@@ -87,7 +87,7 @@
         tools:layout_editor_absoluteY="314dp" />
 
     <EditText
-        android:id="@+id/editTextDescripcion"
+        android:id="@+id/editTextDescripcionC"
         android:layout_width="347dp"
         android:layout_height="205dp"
         android:layout_gravity="center_horizontal"
@@ -101,12 +101,12 @@
         tools:layout_editor_absoluteY="355dp" />
 
     <Button
-        android:id="@+id/guardarCitaBtn"
+        android:id="@+id/guardarCitaCBtn"
         android:layout_width="wrap_content"
         android:layout_height="55dp"
         android:layout_marginTop="30dp"
         android:layout_gravity="center_horizontal"
-        android:text="@string/agendar"
+        android:text="@string/actualizar_cita"
         android:textSize="18sp"
-        app:layout_constraintEnd_toStartOf="@+id/editTextTime"/>
+        app:layout_constraintEnd_toStartOf="@+id/editTextTimeC"/>
 </LinearLayout>

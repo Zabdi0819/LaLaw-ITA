@@ -63,7 +63,6 @@ public class agendarActivity extends AppCompatActivity implements View.OnClickLi
         editTextDate = (EditText) findViewById(R.id.editTextDate);
         editTextTime = (EditText) findViewById(R.id.editTextTime);
         editTextDescripcion = (EditText) findViewById(R.id.editTextDescripcion);
-        textView6 = (TextView) findViewById(R.id.textView6);
 
         //CLick
         dateBtn.setOnClickListener(this);

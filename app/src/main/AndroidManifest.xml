@@ -12,6 +12,9 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.LawITA">
         <activity
+            android:name=".verCitaActivity"
+            android:exported="false" />
+        <activity
             android:name=".agendarActivity"
             android:exported="false"
             android:parentActivityName=".MainActivity">
