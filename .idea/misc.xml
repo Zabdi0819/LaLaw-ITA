@@ -14,7 +14,7 @@
         <entry key="..\:/Users/Zabdy/Documents/8vo/LawITA/app/src/main/res/layout/app_bar_main.xml" value="0.14130434782608695" />
         <entry key="..\:/Users/Zabdy/Documents/8vo/LawITA/app/src/main/res/layout/content_main.xml" value="0.14130434782608695" />
         <entry key="..\:/Users/Zabdy/Documents/8vo/LawITA/app/src/main/res/layout/fragment_abogados.xml" value="0.1796875" />
-        <entry key="..\:/Users/Zabdy/Documents/8vo/LawITA/app/src/main/res/layout/fragment_calif.xml" value="0.1796875" />
+        <entry key="..\:/Users/Zabdy/Documents/8vo/LawITA/app/src/main/res/layout/fragment_calif.xml" value="0.1" />
         <entry key="..\:/Users/Zabdy/Documents/8vo/LawITA/app/src/main/res/layout/fragment_conocenos.xml" value="0.1" />
         <entry key="..\:/Users/Zabdy/Documents/8vo/LawITA/app/src/main/res/layout/fragment_contactanos.xml" value="0.14666666666666667" />
         <entry key="..\:/Users/Zabdy/Documents/8vo/LawITA/app/src/main/res/layout/fragment_home.xml" value="0.22" />
@@ -24,6 +24,7 @@
         <entry key="..\:/Users/Zabdy/Documents/8vo/LawITA/app/src/main/res/layout/fragment_tyc.xml" value="0.1796875" />
         <entry key="..\:/Users/Zabdy/Documents/8vo/LawITA/app/src/main/res/layout/nav_header_main.xml" value="0.14130434782608695" />
         <entry key="..\:/Users/Zabdy/Documents/8vo/LawITA/app/src/main/res/layout/view_abogados.xml" value="0.1796875" />
+        <entry key="..\:/Users/Zabdy/Documents/8vo/LawITA/app/src/main/res/layout/view_comentarios.xml" value="0.1" />
         <entry key="..\:/Users/Zabdy/Documents/8vo/LawITA/app/src/main/res/layout/view_materias.xml" value="0.12" />
         <entry key="..\:/Users/Zabdy/Documents/8vo/LawITA/app/src/main/res/menu/activity_main_drawer.xml" value="0.1796875" />
         <entry key="..\:/Users/Zabdy/Documents/8vo/LawITA/app/src/main/res/menu/main.xml" value="0.1" />

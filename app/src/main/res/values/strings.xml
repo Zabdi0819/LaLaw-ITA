@@ -99,4 +99,9 @@
     <string name="fechaC">Fecha</string>
     <string name="actualizar_cita">Actualizar cita</string>
     <string name="vercita">Ver cita</string>
+    <string name="ratingTitle">¿Qué te pareció la app?</string>
+    <string name="agrega_un_comentario">Agrega un comentario</string>
+    <string name="c_r">Comentario registrado</string>
+    <string name="comentario">Comentario: \n</string>
+    <string name="apellido">Apellido</string>
 </resources>
