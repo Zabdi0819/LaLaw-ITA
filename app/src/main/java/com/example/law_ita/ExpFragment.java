@@ -8,6 +8,12 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 
+import com.github.barteksc.pdfviewer.PDFView;
+import com.google.android.gms.tasks.OnFailureListener;
+import com.google.android.gms.tasks.OnSuccessListener;
+import com.google.firebase.storage.FirebaseStorage;
+import com.google.firebase.storage.StorageReference;
+
 /**
  * A simple {@link Fragment} subclass.
  * Use the {@link ExpFragment#newInstance} factory method to
@@ -24,6 +30,10 @@ public class ExpFragment extends Fragment {
     private String mParam1;
     private String mParam2;
 
+    private View vista;
+    private String documento;
+    private PDFView pdfView;
+    public final static  long ONE_MEGABYTE = 1024*1024*30;
     public ExpFragment() {
         // Required empty public constructor
     }
@@ -59,6 +69,24 @@ public class ExpFragment extends Fragment {
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
         // Inflate the layout for this fragment
-        return inflater.inflate(R.layout.fragment_exp, container, false);
+        vista = inflater.inflate(R.layout.fragment_exp, container, false);
+
+        pdfView = (PDFView) vista.findViewById(R.id.pdfView);
+
+        FirebaseStorage mFirebaseStorage = FirebaseStorage.getInstance();
+        StorageReference gsReference = mFirebaseStorage.getReferenceFromUrl("gs://law-ita.appspot.com/DemandaDivorcio.pdf");
+        gsReference.getBytes(ONE_MEGABYTE).addOnSuccessListener(new OnSuccessListener<byte[]>() {
+            @Override
+            public void onSuccess(byte[] bytes) {
+                // Data for "images/island.jpg" is returns, use this as needed
+                pdfView.fromBytes(bytes).load();
+            }
+        }).addOnFailureListener(new OnFailureListener() {
+            @Override
+            public void onFailure(Exception exception) {
+                // Handle any errors
+            }
+        });
+        return vista;
     }
 }

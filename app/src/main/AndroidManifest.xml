@@ -13,7 +13,11 @@
         android:theme="@style/Theme.LawITA">
         <activity
             android:name=".verCitaActivity"
-            android:exported="false" />
+            android:exported="false" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".MainActivity" />
+        </activity>
         <activity
             android:name=".agendarActivity"
             android:exported="false"
